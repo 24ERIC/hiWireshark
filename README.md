@@ -1,5 +1,10 @@
 # hiWireshark
 
+# Emoj
+
+- ❌ 
+- ✅
+
 # c key feature
 
 - Procedural Language
