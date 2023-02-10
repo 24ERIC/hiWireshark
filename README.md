@@ -31,6 +31,22 @@
 - write
 - 
 
+# [c format specifier](https://www.geeksforgeeks.org/format-specifiers-in-c/)
+
+| % | Use | Assign | Input | output |
+|---|-----|--------|-------|--------|
+| %c | Character | ch = 'A'; | ch | A |
+| %d %i | Signed Integer | x = 45; | x | 45 |
+| %u | Unsigned Integer |  | -10, 10 | 4294967286, 10 |
+| %f | Floating-point | a = 12.67; | a | 12.670000 |
+| %e | Floating-point | a = 12.67; | a | 1.267000e+01 |
+| %E | Floating-point | a = 12.67; | a | 1.267000E+01 | 
+| %o | Unsigned Octal number | int a = 67; | a | 103 |
+| %x %X | Unsigned Hexadecimal | int a = 15; | a | f |
+| %s | String printing | char a[] = "aaa" | a | aaa |
+| %p | Address Printing | int a = 10; |  |  |
+| % |  |  |  |  |
+
 # wireshark feature
 
 - Packet Capture: Wireshark listens to a network connection in real time and then grabs entire streams of traffic – quite possibly tens of thousands of packets at a time.
