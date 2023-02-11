@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+c_file_array=()
+for file in *; do 
+    if [ -f "$file" ] && [ ${file: -2} == ".c" ]; then 
+
+        c_file_array+=(${file%.*})
+        echo $$file
+    fi 
+done
+
+
+for i in "${!foo[@]}"; do 
+  echo "%s\t%s\n" "$i" "${foo[$i]}"
+done
+

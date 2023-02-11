@@ -4,8 +4,8 @@
 
 - ❌ 
 - ✅
-
-# c key feature
+- 😎
+# Research - c key feature
 
 - Procedural Language
 - Quick and Effective
@@ -19,7 +19,7 @@
 - General-Purpose Language
 - Rich set of built-in Operators
 
-# c network related package
+# Research - c network related package
 
 - htonl
 - ntohs
@@ -31,7 +31,7 @@
 - write
 - 
 
-# [c format specifier](https://www.geeksforgeeks.org/format-specifiers-in-c/)
+# Research - [c format specifier](https://www.geeksforgeeks.org/format-specifiers-in-c/)
 
 | % | Use | Assign | Input | output |
 |---|-----|--------|-------|--------|
@@ -50,13 +50,13 @@
 | %20.5s | other | char str[] = "geeksforgeeks"; | str |                geeks |
 | %-20.5s | other | char str[] = "geeksforgeeks"; | str | geeks |
 
-# wireshark feature
+# Research - wireshark feature
 
 - Packet Capture: Wireshark listens to a network connection in real time and then grabs entire streams of traffic – quite possibly tens of thousands of packets at a time.
 - Filtering: Wireshark is capable of slicing and dicing all of this random live data using filters. By applying a filter, you can obtain just the information you need to see.
 - Visualization: Wireshark, like any good packet sniffer, allows you to dive right into the very middle of a network packet. It also allows you to visualize entire conversations and network streams.
 
-# Wireshark has a rich feature set which includes the following:
+# Research - Wireshark has a rich feature set which includes the following:
 
 - Deep inspection of hundreds of protocols, with more being added all the time
 - Live capture and offline analysis
@@ -72,8 +72,32 @@
 - Coloring rules can be applied to the packet list for quick, intuitive analysis
 - Output can be exported to XML, PostScript®, CSV, or plain text
 
-# Network Basic
+
+# Research - Network Basic
 
 | Name | What is it? | What it do? | Note |
 |------|------------|--------------|------|
 | TCP (Transmission control protocol) | intermediate layer of the application layer and internet protocol layer | - creates a connection before transmit data <br> - big data to small before send <br> - reassembling at destination <br> - retransmission <br>  | - the client begins the communication and establishes a connection with a server <br> |
+
+
+# Research - [Steps to create a client using TCP/IP  API](https://aticleworld.com/socket-programming-in-c-using-tcpip/)
+
+- Create a socket with the socket() system call.
+- Initialize the socket address structure as per the server and connect the socket to the address of the server using the connect() system call.
+- Receive and send the data using the recv() and send().
+- Close the connection by calling the close() function.
+
+
+# Research - Steps to create a server using TCP/IP API
+
+- Create a socket with the socket() system call.
+- Initialize the socket address structure and bind the socket to an address using the bind() system call.
+- Listen for connections with the listen() system call.
+- Accept a connection with the accept() system call. This call typically blocks until a client connects to the server.
+- Receive and send data by using the recv() and send().
+- Close the connection by using the close().
+
+
+
+
+
