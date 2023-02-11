@@ -45,11 +45,11 @@
 | %x %X | Unsigned Hexadecimal | int a = 15; | a | f |
 | %s | String printing | char a[] = "aaa" | a | aaa |
 | %p | Address Printing | int a = 10; | (void*)&a | 0x7ffc85861624 |
+| %20s | other | char str[] = "geeksforgeeks"; | str |        geeksforgeeks |
+| %-20s | other | char str[] = "geeksforgeeks"; | str | geeksforgeeks        |
+| %20.5s | other | char str[] = "geeksforgeeks"; | str |                geeks |
+| %-20.5s | other | char str[] = "geeksforgeeks"; | str | geeks |
 | % |  |  |  |  |
-| %20s |  | char str[] = "geeksforgeeks"; | str |        geeksforgeeks |
-| %-20s |  | char str[] = "geeksforgeeks"; | str | geeksforgeeks        |
-| %20.5s |  | char str[] = "geeksforgeeks"; | str |                geeks |
-| %-20.5s |  | char str[] = "geeksforgeeks"; | str | geeks |
 
 # wireshark feature
 
