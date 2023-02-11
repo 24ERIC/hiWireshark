@@ -49,7 +49,6 @@
 | %-20s | other | char str[] = "geeksforgeeks"; | str | geeksforgeeks        |
 | %20.5s | other | char str[] = "geeksforgeeks"; | str |                geeks |
 | %-20.5s | other | char str[] = "geeksforgeeks"; | str | geeks |
-| % |  |  |  |  |
 
 # wireshark feature
 
@@ -72,3 +71,9 @@
 - Decryption support for many protocols, including IPsec, ISAKMP, Kerberos, SNMPv3, SSL/TLS, WEP, and WPA/WPA2
 - Coloring rules can be applied to the packet list for quick, intuitive analysis
 - Output can be exported to XML, PostScript®, CSV, or plain text
+
+# Network Basic
+
+| Name | What is it? | What it do? | Note |
+|------|------------|--------------|------|
+| TCP (Transmission control protocol) | intermediate layer of the application layer and internet protocol layer | - creates a connection before transmit data <br> - big data to small before send <br> - reassembling at destination <br> - retransmission <br>  | - the client begins the communication and establishes a connection with a server <br> |
