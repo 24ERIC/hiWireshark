@@ -1,15 +1,19 @@
 # hiWireshark Project Goal
 - Display system pocket on GUI
 
-| - | Steps | - |  | Failures |
-# Failure
-- Fail to use c language on this project - due to don't know 
+| - | Steps | - | Success | - | Failures | Reason |
+|---|-------|---|---------|---|----------|--------|
+| 💡 | python access system pocket | ✅ |  | ❌ | Fail to use c language on this project | don't know how to work with system pocket by c language |  
+| 💡 | which python gui i should use | ✅ |  | ❌ |  |  |  
+| 💡 |  | ✅ |  | ❌ |  |  |  
 
 # Emoj
 
 - ❌
 - ✅
 - 😎
+- 👨‍💻
+- 💡
 
 
 
