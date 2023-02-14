@@ -1,17 +1,22 @@
-# hiWireshark
+# hiWireshark Project Goal
+- Display system pocket on GUI
 
-# Plan
-
-1. auto generate makefile script
-1. 
-1. 
-1. 
+| - | Steps | - |  | Failures |
+# Failure
+- Fail to use c language on this project - due to don't know 
 
 # Emoj
 
 - ❌
 - ✅
 - 😎
+
+
+
+
+
+
+
 
 
 # Research - c key feature
