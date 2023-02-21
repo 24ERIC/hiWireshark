@@ -1,9 +1,17 @@
 #include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
 
-int main()
+int main() 
 {
-    char n[1000];
-    n[0]="1";
-    printf("%s", n);
-    return 1;
+	int a = 1;
+    int *b;
+    b = &a;
+    printf("%d\n", a);
+    printf("%p\n", (void*)b);
+    printf("%d\n", *b);
+    // b = a;
+    // printf("%p\n", (void*)b);
+    // printf("%d\n", *b);
 }
