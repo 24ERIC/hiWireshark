@@ -15,3 +15,36 @@
 
 
 ## research 
+- include
+- #define
+    - int a = MAXLINE;
+    - the const Qualifier to Define Constants
+    - preprocessor directive
+    - #define <VAR_NAME> <VALUE>
+    - you may get a warning that you're trying to redefine an already-defined constant.
+- const
+    - to be s constant
+    - cannot redefine an existing variable. 
+    - can always reassign values of a variable.
+    - using the const qualifier to render variables to be read-only.
+
+
+## research 
+- strcpy
+    - in the string.h header file.
+    - ()
+- buffer
+    -  it is any piece of memory where data is stored temporarily until it is processed or copied to the final destination
+- #include <conio.h>
+    - int getch();
+
+
+
+## research 
+- allocat
+- mal
+- realloc
+- 
+- 
+- 
+
