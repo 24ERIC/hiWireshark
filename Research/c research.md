@@ -32,7 +32,7 @@
 ## research 
 - strcpy
     - in the string.h header file.
-    - ()
+    - (des, source)
 - buffer
     -  it is any piece of memory where data is stored temporarily until it is processed or copied to the final destination
 - #include <conio.h>
@@ -41,10 +41,38 @@
 
 
 ## research 
-- allocat
-- mal
+- declare
+    - char
+        - char c = "s";
+    - string
+        - char s[] = "hllo";
+    - int
+        - int i = 1;
+- pointer
+    - char s[] = "hello";
+    - char *p = s;
+    - *(p+1) = 'a';
+    - s[2] = 'a';
+    - printf("%s", p);
 - realloc
-- 
+    - Changes the size of the memory block pointed to by ptr.
+    - The function may move the memory block to a new location (whose address is returned by the function).
+    - 
+- malloc
+    - memory allocation
+    - allocate a block of memory dynamically
+    - ptr = (cast_type *) malloc (byte_size);
+    - 
+- structs
+    - 
+    - 
+    - 
+    - 
+- linkedlist
+    - 
+    - 
+    - 
+    - 
 - 
 - 
 
