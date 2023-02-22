@@ -78,11 +78,17 @@
     - 
     - 
     - 
-- linkedlist
-    - 
-    - 
-    - 
-    - 
-- 
-- 
 
+    - 
+    - 
+    - 
+    - 
+- typedef
+    - provide existing data types with a new name.
+    - 
+    - 
+    - 
+- 
+- 
+-  
+- linkedlist
