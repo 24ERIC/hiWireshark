@@ -64,7 +64,17 @@
     - ptr = (cast_type *) malloc (byte_size);
     - 
 - structs
-    - 
+    - Structures
+    - a way to group several related variables into one place
+    - Each variable in the structure is known as a member of the structure.
+    - Unlike an array, a structure can contain many different data types (int, float, char, etc.).
+    -   struct MyStructure {   // Structure declaration
+            int myNum;           // Member (int variable)
+            char myLetter;       // Member (char variable)
+        }; // End the structure with a semicolon 
+    - string strcpy(s1.myString, "Some text");
+    - // Create a structure variable and assign values to it
+  struct myStructure s1 = {13, 'B', "Some text"};
     - 
     - 
     - 
